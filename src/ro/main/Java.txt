@@ -1,0 +1,25 @@
+Variable 4 type
+	Instance Variable - non static field
+	Class Variable - Static field 
+	Local Variables - in method 
+	Parameters - ()
+Primitive
+	Stack memory
+	8 Primitive 
+		byte 	  -128 ->127
+		short 2 bytes -32.768 -> +
+		int 4 bytes -2^31 -> +
+		long 8 bytes -2^63 -> +
+		float 4 bytes 32 bites 
+		double 8 bytes 64
+		boolean 1 bytes 
+		String 
+Exercise : 
+instance variable
+class variables
+local variable
+parameters		
+
+Class :
+	Methods : getFuel() ,getSpeed()
+	Attributes : fuel ,MaxSpeed
