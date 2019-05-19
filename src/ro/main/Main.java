@@ -1,7 +1,6 @@
 package ro.main;
 
 
-import com.fazecast.jSerialComm.SerialPort;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,8 +9,6 @@ import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import gnu.io.*;
-import com.fazecast.jSerialComm.*;
 
 public class Main extends Application {
     Stage stage;
@@ -69,7 +66,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-        SerialPort port = SerialPort.getCommPort("");
 
 
 
